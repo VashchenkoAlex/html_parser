@@ -1,0 +1,45 @@
+group 'com.ae'
+version '0.0.1'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'com.ae.FindById'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.jsoup:jsoup:1.11.3'
+
+    compile 'org.slf4j:slf4j-log4j12:1.7.12'
+}
+
+
+jar {
+    baseName = 'ae-backend'
+    version = '0.0.1'
+    manifest {
+        attributes(
+                'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
+                'Main-Class': 'com.ae.FindById',
+        )
+    }
+}
+
+task wrapper(type: Wrapper){
+    gradleVersion = '1.11'
+}
+
+task uberJar(type: Jar){
+    from files(sourceSets.main.output.classesDir)
+    from configurations.runtime.asFileTree.files.collect { zipTree(it) }
+
+    manifest {
+        attributes 'Main-Class': 'com.ae.FindById'
+    }
+}

@@ -1,0 +1,16 @@
+c:\tasks\a_level\AE\ae-backend\samples\sample-0-origin.html
+c:\tasks\a_level\AE\ae-backend\samples\sample-1-evil-gemini.html
+html > body > div > div > div > div > div > div > a
+
+c:\tasks\a_level\AE\ae-backend\samples\sample-0-origin.html
+c:\tasks\a_level\AE\ae-backend\samples\sample-3-the-escape.html
+html > body > div > div > div > div > div > div > a
+
+c:\tasks\a_level\AE\ae-backend\samples\sample-0-origin.html
+c:\tasks\a_level\AE\ae-backend\samples\sample-2-container-and-clone.html
+html > body > div > div > div > div > div > div > div > a
+
+c:\tasks\a_level\AE\ae-backend\samples\sample-0-origin.html
+c:\tasks\a_level\AE\ae-backend\samples\sample-4-the-mash.html
+html > body > div > div > div > div > div > div > a
+
