@@ -14,3 +14,19 @@ c:\tasks\a_level\AE\ae-backend\samples\sample-0-origin.html
 c:\tasks\a_level\AE\ae-backend\samples\sample-4-the-mash.html
 html > body > div > div > div > div > div > div > a
 
+________________________________________________
+06/12/2018
+The result is 18/100 (24 without time penalty). 
+
+Pros:
+- Application works in someway.
+- Results attached.
+
+Cons:
+- Code issues. All application logic is in static declaration.
+- The task expects a flexible algorithm that is able to get traits of an original object and then find them most alike object in other document by some sort of similarity. No step was done to the right direction within this solution. It is failed. 
+- The app is not able to produce results correctly.
+- Analytical algorithm is not structured. Original element isn't used, all attributes hardcoded to app.
+- Data model doesn't exist. The algorithm would be more clear with own data model.
+- Deliverables: Readme is missed. Jar is missed. Issues with jar packaging(I've slightly updated gradle script to make jar executable)
+- It would be good to have tests.
